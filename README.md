@@ -55,3 +55,6 @@ Untuk menghasilkan report pada console, gunakan kewboard:` ctrl+c`
 `cd ~/Downloads/siege-3.1.0/`
 
 `make uninstall`
+
+## Reference
+https://drupalize.me/blog/201507/load-testing-your-site-siege
