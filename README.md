@@ -33,10 +33,23 @@ jumlah user/client yang akan mengakses suatu http request.
 ![image](https://cloud.githubusercontent.com/assets/19463315/23456461/26019d80-fea6-11e6-9ba7-48549738fe80.png)
 
 5.Versi
-Untuk memastikan instalasi siege berjalan dengan baik, lakukan pengecekan dengan menggunkan perintah berikut :
-
+Untuk memastikan instalasi siege berjalan dengan baik, lakukan pengecekan dengan menggunkan perintah berikut : 
 `siege -V`
 
 ![image](https://cloud.githubusercontent.com/assets/19463315/23456570/8a585512-fea6-11e6-839e-10508c7e69da.png)
+## Load testing dengan Siege
+### Basic
+`siege http://api.staging28.vm/v2/products.json?keywords=mi5 `
+![image](https://cloud.githubusercontent.com/assets/19463315/23457031/8f652e34-fea8-11e6-925d-1b7f4041285b.png)
 
+### Simulasi jumlah User/Client  dan delay
+`siege http://api.staging28.vm/v2/products.json?keywords=mi5 -c 200 -d 3`
 
+### Report
+Untuk menghasilkan report pada console, gunakan kewboard:` ctrl+c`
+![image](https://cloud.githubusercontent.com/assets/19463315/23457103/04d70430-fea9-11e6-826e-19912f821bb2.png)
+
+## Uninstall Siege
+`cd ~/Downloads/siege-3.1.0/`
+
+`make uninstall`
