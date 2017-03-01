@@ -34,7 +34,8 @@ jumlah user/client yang akan mengakses suatu http request.
 
 5.Versi
 
-Untuk memastikan instalasi siege berjalan dengan baik, lakukan pengecekan dengan menggunkan perintah berikut : 
+Untuk memastikan instalasi siege berjalan dengan baik, lakukan pengecekan dengan menggunkan perintah berikut :
+
 `siege -V`
 
 ![image](https://cloud.githubusercontent.com/assets/19463315/23456570/8a585512-fea6-11e6-839e-10508c7e69da.png)
