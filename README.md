@@ -33,6 +33,7 @@ jumlah user/client yang akan mengakses suatu http request.
 ![image](https://cloud.githubusercontent.com/assets/19463315/23456461/26019d80-fea6-11e6-9ba7-48549738fe80.png)
 
 5.Versi
+
 Untuk memastikan instalasi siege berjalan dengan baik, lakukan pengecekan dengan menggunkan perintah berikut : 
 `siege -V`
 
