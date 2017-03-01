@@ -48,7 +48,7 @@ Untuk memastikan instalasi siege berjalan dengan baik, lakukan pengecekan dengan
 `siege http://api.staging28.vm/v2/products.json?keywords=mi5 -c 200 -d 3`
 
 ### Report
-Untuk menghasilkan report pada console, gunakan kewboard:` ctrl+c`
+Untuk menghasilkan report pada console, gunakan keyboard:` ctrl+c`
 ![image](https://cloud.githubusercontent.com/assets/19463315/23457103/04d70430-fea9-11e6-826e-19912f821bb2.png)
 
 ## Uninstall Siege
