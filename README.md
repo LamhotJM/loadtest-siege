@@ -6,8 +6,8 @@ jumlah user/client yang akan mengakses suatu http request.
 
 ## Langkah Instalasi pada ubuntu
 
-1. Setup requirement tools (build-essential)
-  `sudo apt-get update && sudo apt-get install build-essential`
+1.Install build-essential
+` sudo apt-get update && sudo apt-get install build-essential`
 
 2.cd ~/Downloads
 ` wget http://download.joedog.org/siege/siege-3.1.0.tar.gz`
